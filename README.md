@@ -36,9 +36,9 @@ Go to your project directory from terminal and hit following commands
 
 •	mvn test (defualt will run on chrome and firefox browsers)
 
-•	mvn test “-Dcucumber.options=“--tags @chrome” (to use only Chrome browser)
+•	mvn test "-Dbrowser=chrome” (to use only Chrome browser)
 
-•	mvn test “-Dcucumber.options=“--tags @firefox” (to use only Firefox browser)
+•	mvn test "-Dbrowser=firefox” (to use only Firefox browser)
 
 Cucumber reports are generated in HTML format under the Reports folder.
 
